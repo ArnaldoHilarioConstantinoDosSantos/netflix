@@ -116,3 +116,23 @@ body{
   background: black;
   padding: 4rem 0;
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: 1.1fr 1fr
+}
+
+.img-tv{
+  position: relative;
+}
+
+.img-tv img{
+position: relative;
+z-index: 1;
+}
+
+.video-tv{
+  position: absolute;
+  top: 80px;
+  left: 70px;
+}
